@@ -173,3 +173,56 @@ button {
   border-radius: 5px;
   background: #ffeb38;
 }
+
+/* about */
+.about-section {
+  padding: 112px 0 215px 0;
+}
+.about-container {
+  display: flex;
+}
+.about-us-image {
+}
+.about-text-info {
+  margin-left: 219px;
+}
+.about-subtitle {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  margin-bottom: 19px;
+}
+.about-st-part {
+  color: #ffeb38;
+  font-weight: 700;
+}
+.about-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.25; /* 60.24px */
+  letter-spacing: 0.03em;
+  margin-bottom: 31px;
+}
+.about-text {
+  color: #696969;
+  text-align: justify;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.55; /* 24.8px */
+  letter-spacing: 0.03em;
+  margin-bottom: 35px;
+}
+.about-button {
+  border-radius: 5px;
+  background: #ffeb38;
+  color: #1e1e1e;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  width: 181px;
+  height: 48px;
+  border: none;
+}
