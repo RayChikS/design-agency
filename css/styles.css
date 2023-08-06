@@ -226,3 +226,74 @@ button {
   height: 48px;
   border: none;
 }
+
+/**
+  |============================
+  | Services
+  |============================
+*/
+.services {
+  background: #202020;
+  padding: 120px 0 102px 0;
+}
+
+.services-container {
+  display: flex;
+  gap: 89px;
+}
+
+.services-subtitle {
+  color: #f8f8f8;
+  text-align: justify;
+  margin-bottom: 19px;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.55; /* 24.8px */
+  letter-spacing: 0.03em;
+}
+
+.services-subtitle-part {
+  color: #ffeb38;
+  font-weight: 700;
+}
+
+.services-title {
+  margin-bottom: 23px;
+  color: #f8f8f8;
+  font-size: 48px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+}
+
+.services-text {
+  margin-bottom: 40px;
+  color: #fff;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.55; /* 24.8px */
+  letter-spacing: 0.03em;
+}
+
+.services-btn {
+  min-width: 181px;
+  height: 48px;
+  border-radius: 5px;
+  background: #ffeb38;
+
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 61px 20px;
+}
+
+.services-item {
+  width: calc((100% - 20px) / 2);
+  border-radius: 5px;
+  background: #fff;
+  padding: 54px 15px 22px 15px;
+}
