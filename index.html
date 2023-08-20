@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,8 +16,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Design Agency</title>
   </head>
@@ -344,5 +349,61 @@
         <li><a href="" target="_blank">Cookies Policy</a></li>
       </ul>
     </footer>
+    <div class="swiper image-slider">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+
+        <div class="swiper-slide">
+          <div class="image-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1653219305693-28ad4baf623a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM5fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="image-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1676838657113-79bf37e0851a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM1fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="image-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1676744843212-09b7e64c3a05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDU5fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="image-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1676846631735-e10bf09d49d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDUxfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="image-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1677040628614-53936ff66632?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQyfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/slider.js"></script>
   </body>
 </html>
